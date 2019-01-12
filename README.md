@@ -34,5 +34,15 @@ How to get operands from memory?
 2. variable length: CISC: take less space in mem and caches: x86(from 1 - 17bytes)
 ## RISC
 1. Reduced : the number of bits that are used for the opcode is reduced.
-2. EX:MIPS, All ALU instructions have 3 operands which are only registers. The only memory access is through explicit LOAD/STORE instructions. [ref](http://www.cs.kent.edu/~durand/CS0/Notes/Chapter05/isa.html)
+2. EX:MIPS, All ALU instructions have 3 operands which are only registers. The only memory access is through explicit LOAD/STORE instructions. 
+Thus C = A + B will be assembled as:
 
+`LOAD  R1,A`
+
+`LOAD  R2,B`
+
+`ADD   R3,R1,R2`
+
+`STORE C,R3`
+
+Please see [Ref](http://www.cs.kent.edu/~durand/CS0/Notes/Chapter05/isa.html)
