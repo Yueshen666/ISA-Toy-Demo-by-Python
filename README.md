@@ -32,3 +32,7 @@ How to get operands from memory?
 ## ISA encoding
 1. fixed length(every instruction has same length, easy to code): RISC: MIPS(all 4 bytes),powerpc, ARM
 2. variable length: CISC: take less space in mem and caches: x86(from 1 - 17bytes)
+## RISC
+1. Reduced : the number of bits that are used for the opcode is reduced.
+2. EX:MIPS, All ALU instructions have 3 operands which are only registers. The only memory access is through explicit LOAD/STORE instructions. [ref](http://www.cs.kent.edu/~durand/CS0/Notes/Chapter05/isa.html)
+
