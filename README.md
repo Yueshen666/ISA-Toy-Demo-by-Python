@@ -1,7 +1,4 @@
-# ISA-Toy-Demo-by-Python
-A toy demo to help understand the components and characteristics of a very simple instruction set architecture. 
-
-# Basic ISA you should know
+# Basic ISA...
 
 ## machine models
 Where does operand come from and where do results go?
@@ -46,3 +43,9 @@ Thus C = A + B will be assembled as:
 `STORE C,R3`
 
 Please see [Ref](http://www.cs.kent.edu/~durand/CS0/Notes/Chapter05/isa.html)
+
+# A Design
+## General
+## Registers
+## Arithmetic instructions
+## pipeline/solution to harzard/cache...
